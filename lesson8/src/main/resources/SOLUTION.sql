@@ -1,6 +1,6 @@
-SELECT MIN(birthday) FROM Student;
+SELECT MAX(birthday) FROM Student;
 
-SELECT MIN(date) FROM Payment;
+SELECT MIN(payment_date) FROM Payment;
 
 SELECT AVG(mark) FROM Mark WHERE subject_id = (SELECT id FROM subject where name = 'Math');
 
